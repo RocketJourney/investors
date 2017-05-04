@@ -281,8 +281,9 @@
 
 	.navbar-default .navbar-nav > li.active > a ,
 	.navbar-default .navbar-nav > li > a:hover {
-		color: #933ded !important;
-		background: transparent !important;
+		color: #ffcc00;
+		background-color: #1a1a1a;
+		border-radius: 16px;
 	}
 
 	.navbar-nav > li > .dropdown-menu ,
@@ -2471,7 +2472,7 @@ a:hover {
 
 .navbar-default .navbar-nav > li.active > a ,
 .navbar-default .navbar-nav > li > a:hover {
-	color: #FFC107 !important;
+	color: #ffcc00;
 }
 
 .navbar-nav > li > .dropdown-menu ,

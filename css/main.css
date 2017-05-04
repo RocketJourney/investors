@@ -264,9 +264,8 @@
 		line-height: 0;
 	}
 
-	.navbar-nav > li > a {
-		padding: 34px 10px 32px;
-		font-family: 'Montserrat', sans-serif;
+	.navbar-logo {
+		height: 20px;
 	}
 
 	.navbar-nav.navbar-right:last-child {
@@ -274,10 +273,9 @@
 	}
 
 	.navbar-default .navbar-nav > li > a {
-		color: #fff !important;
-		font-size: 12px;
-		font-weight: 400;
-		text-transform: uppercase;
+		color: #1a1a1a;
+		font-size: 13px;
+		font-weight: 700;
 		letter-spacing: 1px;
 	}
 
@@ -285,9 +283,6 @@
 	.navbar-default .navbar-nav > li > a:hover {
 		color: #933ded !important;
 		background: transparent !important;
-	}
-
-	.navbar-default {
 	}
 
 	.navbar-nav > li > .dropdown-menu ,

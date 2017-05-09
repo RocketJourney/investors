@@ -69,7 +69,7 @@ $(document).ready(function() {
 $(window).scroll(function() {
     var value = $(this).scrollTop();
     if (value > 80)
-        $(".navbar-default").css("background", "#ffcc00");
+        $(".navbar-default").css("background", "#ffd900");
     else
         $(".navbar-default").css("background", "transparent");
 })

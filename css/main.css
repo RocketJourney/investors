@@ -29,7 +29,7 @@
 	}
 
 	p {
-		font-size: 18px;
+		font-size: 20px;
 		color: #666;
 		font-weight: 400;
 		font-family: 'Hind', sans-serif;
@@ -500,7 +500,7 @@
 		letter-spacing: -0.5px;
 	}
 
-	.intro h2 {
+	.intro h1 {
 		font-size: 54px;
 		line-height: 60px;
 		font-weight: 700;
@@ -535,42 +535,50 @@
 		padding: 60px 0;
 	}
 
-	section h1 {
-		margin-bottom: 50px;
+	section h2 {
+		margin-bottom: 22px;
+		color: #eaeaea;
+		font-size: 33px;
 	}
 
 	section h3 {
 		margin-bottom: 20px;
-		line-height: 30px;
+		line-height: 32px;
+		font-weight: 300;
+		color: #eaeaea;
 	}
 
-	.dark-section {
+	.dark-dark-section {
 		background-color: #1a1a1a;
 	}
 
-	.dark-section p {
+	.dark-dark-section p {
 		color: #eaeaea;
 	}
 
-	.light-section h3 {
-		color: #4a4a4a;
-	}
-
-	.light-section h1 {
+	.dark-light-section h1 {
 		color: #eaeaea;
 	}
 
-	.light-section {
+	.dark-light-section {
 		background-color: #2a2a2a;
 	}
 
-	.light-section p {
+	.dark-light-section p {
 		color: #eaeaea;
 	}
 
-	.p-main {
+	.p-big {
 			font-size: 30px;
 			letter-spacing: -0.5px;
+	}
+
+	.slide-title {
+			font-size: 30px;
+			letter-spacing: -0.5px;
+			font-family: 'Montserrat',sans-serif;
+			color: #eaeaea;
+			margin-bottom: 90px;
 	}
 
 	.text-dark {
@@ -1614,14 +1622,6 @@
 
 		.navbar-nav > li > a {
 			padding: 34px 6px 32px;
-		}
-
-		.intro1 h2 {
-			font-size: 46px;
-		}
-
-		.intro1 p {
-			padding: 0px 10%;
 		}
 
 		.clients .col-md-2 {

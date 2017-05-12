@@ -230,25 +230,6 @@
 		padding: 0px 46% 0 0;
 		font-size: 17px;
 	}
-
-	.content-head-lite {
-		margin-bottom: 50px;
-	}
-
-	.content-head-lite h2 {
-		margin: 0px 0px 10px;
-		font-size: 38px;
-		color: #FFF;
-		letter-spacing: -1px;
-	}
-
-	.content-head-lite p {
-		color: #aaa;
-		padding: 0px 24%;
-		font-size: 16px;
-		letter-spacing: 0.04em;
-	}
-
 	.bg-gray {
 		background: #f5f5f5;
 	}
@@ -512,7 +493,7 @@
 		font-size: 30px;
 	}
 
-	@media only screen and (min-width: 400px)  and (max-width: 767px)  {
+	@media only screen and (max-width: 767px)  {
 		.intro h2, .intro h4 {
 			text-align: left;
 		}
@@ -590,6 +571,11 @@
 	.p-big {
 			font-size: 30px;
 			letter-spacing: -0.5px;
+	}
+
+	.p-quote {
+		font-size: 30px;
+		letter-spacing: -0.4px;
 	}
 
 	.slide-title {
@@ -768,26 +754,6 @@
 		background: #222;
 		position: relative;
 		padding: 100px 0px;
-	}
-
-	.fc-thumb {
-		position: relative;
-	}
-
-	.fc-inner h4 {
-		padding: 30px 0px 12px;
-		margin: 0;
-		font-size: 16px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		color: #fff;
-	}
-
-	.fc-inner p {
-		font-size: 13px;
-		line-height: 22px;
-		padding: 0 0 20px;
-		color: #999;
 	}
 
 	/* 8. TESTIMONIALS */
@@ -1689,10 +1655,7 @@
 			font-size: 38px;
 		}
 
-		#features .fc-inner {
-			width: 60%;
-			margin: 0 20% 40px;
-		}
+
 
 		.feature-content {
 			padding: 90px 0px 50px;
@@ -1862,24 +1825,10 @@
 			line-height: 43px;
 		}
 
-		.content-head h2 ,
-		.content-head-lite h2 {
-			font-size: 30px;
-		}
-
-		.content-head p ,
-		.content-head-lite p {
-			padding: 0px 0;
-			font-size: 13px;
-		}
-
 		.feature-content {
 			padding: 90px 0px 50px;
 		}
 
-		.fc-inner {
-			margin-bottom: 40px;
-		}
 
 		#business .col-md-3 {
 			padding: 0 15px;
@@ -2077,9 +2026,33 @@
 		letter-spacing: 0.5px;
 	}
 
-	.teammate {
-		height:240px;
-		width:240px;
+	#team h2, #team h4, #team p {
+		text-align: center;
+	}
+
+	.teammate-container h4 {
+		color:#eaeaea;
+		font-size:22px;
+		margin-bottom: 10px;
+	}
+
+	.teammate-container p {
+		color:#777;
+		line-height: 22px;
+		font-size: 18px;
+	}
+
+	.teammate-photo {
+		height:160px;
+		width:160px;
+		border-radius: 50%;
+		margin: 0 auto 20px;
+		background-size: cover;
+	}
+
+	.teammate-photo-old {
+		height:160px;
+		width:160px;
 		border-radius: 50%;
 		margin: 0 auto;
 		background-size: cover;
@@ -2327,4 +2300,24 @@ border:1px solid #FFC107 !important;
 
 .blog-thumb .blog-meta i {
 	color:#FFC107;
+}
+
+#game-mechanics {
+	color:#eaeaea;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+#game-mechanics li {
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+#game-mechanics li {
+	margin-bottom: 18px;
+}
+
+.gm-notes {
+	color: #888;
+	font-size: 15px;
 }

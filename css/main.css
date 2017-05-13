@@ -594,10 +594,24 @@
 		color: #eaeaea
 	}
 
-	.app-screen-container {
-		padding: 0 20px;
+	.gm-container img {
+		margin: 0 auto;
 	}
 
+	@media only screen and (max-width: 767px)  {
+		.gm-container-left {
+			margin-bottom: 30px
+		}
+}
+
+@media only screen and (min-width: 768px)  {
+	.gm-container-left {
+		padding-right: 28px;
+	}
+	.gm-container-right {
+		padding-left: 28px;
+	}
+}
 	.app-btn {
 		background: #933ded;
 		color: #fff;
@@ -678,7 +692,6 @@
 	}
 
 	.dual-img {
-		background: url(../images/other/1.jpg) no-repeat right;
 		background-size: cover;
 		position: absolute;
 		height: 100%;

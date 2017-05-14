@@ -586,6 +586,16 @@
 			margin-bottom: 90px;
 	}
 
+	 .teams-slide {
+		 padding-bottom:0px
+ 		}
+
+	.eat-images {
+		height: 300px;
+		overflow: hidden;
+		margin-bottom: 0;
+	}
+
 	.text-dark {
 		color: #2a2a2a
 	}

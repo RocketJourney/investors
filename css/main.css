@@ -590,10 +590,9 @@
 		 padding-bottom:0px
  		}
 
-	.eat-images {
-		height: 300px;
-		overflow: hidden;
-		margin-bottom: 0;
+	#teams img {
+		margin:0 auto;
+		padding: 0 20px;
 	}
 
 	.text-dark {

@@ -9,7 +9,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #1a1a1a;
 		font-family: 'Open Sans', sans-serif;
 		overflow-x: hidden;
 		color: #777;
@@ -551,6 +551,10 @@
 		letter-spacing: -0.2px;
 	}
 
+	.light-dark-section {
+		background-color: #fff
+	}
+
 	.light-light-section p, .light-dark-section p {
 		color: #313131;
 	}
@@ -560,12 +564,26 @@
 		color: #1a1a1a;
 	}
 
-	.strategy-transition-section {
-		background-color: #ffcc00;
-		background-size: cover;
-		position: relative;
-		color: #1a1a1a;
+	.transition-section {
 		letter-spacing: -0.5px;
+	}
+
+	.transition-section h1 {
+		margin-bottom: 20px;
+	}
+
+	.transition-section .p-big {
+		color:#ababab;
+	}
+
+	.transition-icon {
+		margin-bottom: 30px;
+		color:red;
+	}
+
+	#strategy.transition-section {
+		background-color: #0a0a0a;
+		color: #eaeaea;
 	}
 
 	.p-big {
@@ -585,10 +603,6 @@
 			color: #eaeaea;
 			margin-bottom: 90px;
 	}
-
-	 .teams-slide {
-		 padding-bottom:0px
- 		}
 
 	#teams img {
 		margin:0 auto;
@@ -611,6 +625,14 @@
 		.gm-container-left {
 			margin-bottom: 30px
 		}
+
+		.team-slide-text p {
+			margin-bottom: 40px;
+		}
+
+		#teams img {
+			padding: 0 60px;
+		}
 }
 
 @media only screen and (min-width: 768px)  {
@@ -619,6 +641,19 @@
 	}
 	.gm-container-right {
 		padding-left: 28px;
+	}
+	.team-slide-block {
+		height:460px;
+	}
+
+	.team-slide-text{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.team-slide-text p {
+		font-size: 22px;
 	}
 }
 	.app-btn {

@@ -513,7 +513,6 @@
 		p,h1,h2,h3,h4,h4,h5 {
 			text-align: left;
 		}
-
 	}
 
 	/* Slides */
@@ -1824,6 +1823,10 @@
 	/* Ipad - Desktop (960 - 1150px) */
 	@media only screen and (min-width: 250px)  and (max-width: 767px)  {
 
+		.book-margins {
+			padding: 30px;
+		}
+
 		.container {
 			max-width: 400px;
 			margin: 0 auto;
@@ -2406,4 +2409,10 @@ border:1px solid #FFC107 !important;
 
 .double-phone-wrapper {
 	padding:0 12px;
+}
+
+/* UTILS */
+
+.open-image-popup {
+	cursor: pointer;
 }

@@ -481,6 +481,11 @@
 		letter-spacing: -0.5px;
 	}
 
+	.intro-css {
+		margin-top: 70px;
+		margin-bottom: 40px;
+	}
+
 	.intro h1 {
 		font-size: 54px;
 		line-height: 60px;
@@ -491,6 +496,7 @@
 	.intro .intro-sub-text {
 		color: #2a2a2a;
 		font-size: 30px;
+		padding: 0 120px;
 	}
 
 	@media only screen and (max-width: 767px)  {

@@ -490,7 +490,7 @@
 		font-size: 54px;
 		line-height: 60px;
 		font-weight: 700;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	.intro .intro-sub-text {
@@ -536,10 +536,6 @@
 		color: #eaeaea;
 	}
 
-	section+.light h3 {
-		color: #1a1a1a;
-	}
-
 	.dark-dark-section {
 		background-color: #1a1a1a;
 	}
@@ -556,25 +552,6 @@
 
 	.dark-light-section {
 		background-color: #2a2a2a;
-	}
-
-	.light-light-section {
-		background-color: #f5f5f5;
-		letter-spacing: 0.2px;
-	}
-
-	.light-dark-section {
-		background-color: #fff;
-		letter-spacing: 0.2px;
-	}
-
-	.light-light-section p, .light-dark-section p {
-		color: #313131;
-	}
-
-	.light-light-section h1, .light-light-section h2,
-	.light-dark-section h1, .light-dark-section  h2 {
-		color: #1a1a1a;
 	}
 
 	.transition-section {
@@ -2408,6 +2385,10 @@ border:1px solid #FFC107 !important;
 }
 
 .double-phone-wrapper {
+	margin: 30px auto;
+}
+
+.double-phone-wrapper-item {
 	padding:0 12px;
 }
 
@@ -2415,4 +2396,69 @@ border:1px solid #FFC107 !important;
 
 .open-image-popup {
 	cursor: pointer;
+}
+
+.wiki-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.linky {
+	text-decoration: underline;
+}
+
+.linky:hover, .linky:focus, .linky:active {
+	text-decoration: underline;
+	color:#56C7FF;
+}
+
+/* Strategy Title */
+
+.strategy-title {
+  background-image: linear-gradient(-142deg, #FFF300 0%, #FFCC00 100%);
+  background-color: #ffcc00;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.strategy-title-css {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.strategy-title h1 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.strategy-title .strategy-title-sub-text {
+  color: #2a2a2a;
+  font-size: 30px;
+  padding: 0 120px;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px)  {
+  .strategy-title h2, .strategy-title h4 {
+    text-align: left;
+  }
+
+  .strategy-title .strategy-title-sub-text {
+    font-size: 30px;
+    text-align: left;
+    padding: 0 0;
+  }
+
+  p,h1,h2,h3,h4,h4,h5 {
+    text-align: left;
+  }
 }

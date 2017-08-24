@@ -2459,6 +2459,7 @@ section h2 {
 section h3 {
 	color:#eaeaea;
 	margin-bottom: 20px;
+	line-height: 30px;
 }
 
 section p {
@@ -2467,4 +2468,8 @@ section p {
 
 section .topic {
 	margin-bottom:70px;
+}
+
+.integration-method {
+	text-align:center;
 }

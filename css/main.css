@@ -2319,9 +2319,10 @@ a:hover {
 }
 
 #game-mechanics {
-	color:#eaeaea;
+	color:#dadada;
 	font-size: 17px;
 	line-height: 22px;
+	font-weight: bold;
 }
 
 #game-mechanics li {
@@ -2471,5 +2472,44 @@ section .topic {
 }
 
 .integration-method {
-	text-align:center;
+	background-color: #171717;
+	/*border: 1px solid #171717;*/
+	border-radius: 20px;
+	padding: 30px;
+	margin-top: 15px;
+}
+
+.integration-method-container {
+	margin-top: 20px;
+}
+
+.integration-method-icon {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.integration-method-option {
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 19px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.integration-method-icon img {
+	height:58px;
+}
+
+.integration-method-description {
+	font-size: 18px;
+	text-align: center;
+	color: #9a9a9a
+}
+
+.requests {
+	margin-top:20px;
+}
+
+.requests img {
+	margin-bottom: 20px;
 }

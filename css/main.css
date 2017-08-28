@@ -481,11 +481,6 @@ input:focus, button:focus, .slick-slide {
 	letter-spacing: -0.5px;
 }
 
-.intro-css {
-	margin-top: 40px;
-	margin-bottom: 20px;
-}
-
 .intro h1 {
 	font-size: 54px;
 	line-height: 60px;
@@ -495,8 +490,14 @@ input:focus, button:focus, .slick-slide {
 
 .intro .intro-sub-text {
 	color: #2a2a2a;
-	font-size: 30px;
-	padding: 0 120px;
+	margin-top: 10px;
+	font-weight: bold;
+	color:#D1B700;
+	letter-spacing: 0.4px;
+}
+
+.rj-logo {
+	margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 767px)  {
@@ -2023,8 +2024,8 @@ footer p {
 /* CUSTOM */
 
 
-.navbar-nav > li > a {
-	padding: 10px 10px;
+.navbar-nav>li>a:hover {
+
 }
 
 .navbar-brand {
@@ -2424,8 +2425,88 @@ a:hover {
 }
 
 .header-navigation a {
+	font-weight: 700;
+	font-size:32px;
+	letter-spacing: 0.2px;
+	margin: 0 10px;
+	font-family: 'Montserrat', sans-serif;
+	/* STRATEGY: */
+color: #B8A100;
+text-shadow: 2px 2px 0 #6D6300;
+}
+
+
+
+.header-sub-navigation {
+	margin: 0 auto;
+	display: table;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-sub-navigation a {
+	letter-spacing: 0.3px;
 	font-weight: bold;
-	letter-spacing: 0.4px;
+	font-size:20px;
+	color:#FFDE00;
+	opacity:1;
+}
+
+.header-sub-navigation a:hover {
+	letter-spacing: 0.3px;
+	font-weight: bold;
+}
+
+.header-navigation > .nav > li > a {
+	opacity:0.5;
+}
+
+.header-navigation > .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background: none!important;
+		color:#594E00;
+		text-shadow: 2px 2px 0 #B29F04;
+		font-weight: bolder!important;
+		/*font-size: 34px;*/
+		opacity:1;
+		font-family: 'Montserrat', sans-serif;
+}
+
+/* Arrow, based on @shojberg's http://www.cssarrowplease.com/ */
+
+.arrow-wrapper {
+	margin-left: 300px;
+	margin-right: 140px;
+	margin-top: 22px;
+	margin-bottom: 14px;
+	background-color: #D1B700;
+	border-radius: 10px;
+}
+
+.arrow {
+	position: relative;
+}
+.arrow:after, .arrow:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:after {
+	border-color: rgba(255, 222, 0, 0);
+	border-bottom-color: #FFDE00;
+	border-width: 0px;
+	margin-left: 0px;
+}
+.arrow:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #D1B700;
+	border-width: 18px;
+	margin-left: -18px;
 }
 
 .section-header {
@@ -2503,7 +2584,7 @@ section .topic {
 .integration-method-description {
 	font-size: 18px;
 	text-align: center;
-	color: #9a9a9a
+	color: #9a9a9a;
 }
 
 .requests {

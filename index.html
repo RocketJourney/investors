@@ -38,7 +38,7 @@
 
 		<!-- INTRO/PROBLEM -->
 
-		<header class="intro" style="padding-top:20px; padding-bottom:10px;">
+		<header class="intro svg-bg">
 			<div class="container">
 				<div class="row intro-css">
 					<div class="col-md-12 text-center">
@@ -47,9 +47,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid">
+			<div class="container-fluid" id="topbar">
+
 				<nav class="header-navigation">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav ul-nav">
 						<li><a class="page-scroll" href="#opportunity">OPPORTUNITY</a></li>
 						<li><a class="page-scroll" href="#product">PRODUCT</a></li>
 						<li><a class="page-scroll" href="#strategy">STRATEGY</a></li>
@@ -181,7 +182,7 @@
 
 	<!-- GO-TO-MARKET -->
 
-	<section id="go-to-market">
+	<section id="strategy">
 		<div class="container section-header">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -548,5 +549,9 @@
 <!-- JAVASCRIPT -------------------------------------------------------------------------->
 <script src="js/vendors/jquery.js"></script>
 <script src="js/vendors/jquery.magnific-popup.min.js"></script>
+<script src="js/vendors/scroll-up-bar.min.js"></script>
+<script type="text/javascript">
+	$('#topbar').scrollupbar();
+</script>
 </body>
 </html>

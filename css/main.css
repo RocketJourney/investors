@@ -2425,17 +2425,20 @@ a:hover {
 }
 
 .header-navigation a {
-	font-weight: 700;
-	font-size:32px;
+	font-weight: 400;
+	font-size:16px;
 	letter-spacing: 0.2px;
-	margin: 0 10px;
 	font-family: 'Montserrat', sans-serif;
 	/* STRATEGY: */
-color: #B8A100;
-text-shadow: 2px 2px 0 #6D6300;
+color: #1a1a1a;
 }
 
-
+.header-navigation > .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background: none!important;
+		font-size: 19px;
+		font-weight: 700;
+}
 
 .header-sub-navigation {
 	margin: 0 auto;
@@ -2454,21 +2457,6 @@ text-shadow: 2px 2px 0 #6D6300;
 .header-sub-navigation a:hover {
 	letter-spacing: 0.3px;
 	font-weight: bold;
-}
-
-.header-navigation > .nav > li > a {
-	opacity:0.5;
-}
-
-.header-navigation > .nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background: none!important;
-		color:#594E00;
-		text-shadow: 2px 2px 0 #B29F04;
-		font-weight: bolder!important;
-		/*font-size: 34px;*/
-		opacity:1;
-		font-family: 'Montserrat', sans-serif;
 }
 
 /* Arrow, based on @shojberg's http://www.cssarrowplease.com/ */

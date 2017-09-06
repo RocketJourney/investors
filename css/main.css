@@ -6,6 +6,7 @@
 .to-do {
 	color:red!important;
 	font-weight: bold!important;
+	text-align: center;
 }
 
 body {
@@ -479,11 +480,15 @@ input:focus, button:focus, .slick-slide {
 	padding: 30px 0;
 	color: #1a1a1a;
 	letter-spacing: -0.5px;
-	margin-bottom: 40px;
 	padding-top:10px;
 	padding-bottom: 46px;
 }
 
+@media only screen and (min-width: 768px)  {
+	.intro {
+		margin-bottom: 30px;
+	}
+}
 .intro h1 {
 	font-size: 54px;
 	line-height: 60px;
@@ -2530,6 +2535,23 @@ color: #1a1a1a;
 	padding: 0 80px;
 }
 
+@media only screen and (max-width: 767px)  {
+	.section-header {
+		/*margin-bottom: 50px;*/
+		padding: 0 20px;
+	}
+
+	section h1{
+		font-size: 36px;
+	}
+
+}
+
+@media only screen and (min-width: 767px)  {
+.opportunity-title{
+	padding: 0 200px;
+}
+}
 section .title {
 	font-family: 'Montserrat', sans-serif;
 	color:#ffcc00;
@@ -2554,9 +2576,12 @@ section h2 {
 	font-weight:lighter;
 	font-size:24px;
 	line-height: 29px;
+}
+@media only screen and (min-width: 767px)  {
+section h2 {
 	padding: 0 200px;
 }
-
+}
 section h3 {
 	color:#eaeaea;
 	margin-bottom: 20px;
@@ -2569,6 +2594,10 @@ section p {
 
 section .topic {
 	margin-bottom:70px;
+}
+
+.cms-logo {
+	max-height: 90px;
 }
 
 .integration-method {
@@ -2612,4 +2641,13 @@ section .topic {
 
 .requests img {
 	margin-bottom: 20px;
+}
+
+.mobile-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align:center;
+	letter-spacing: 0.3px;
+	opacity: 0.3;
 }

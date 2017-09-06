@@ -2527,6 +2527,7 @@ color: #1a1a1a;
 
 .section-header {
 	margin-bottom: 50px;
+	padding: 0 80px;
 }
 
 section .title {
@@ -2553,6 +2554,7 @@ section h2 {
 	font-weight:lighter;
 	font-size:24px;
 	line-height: 29px;
+	padding: 0 200px;
 }
 
 section h3 {

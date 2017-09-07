@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="608px" height="202px" viewBox="0 0 608 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="608px" height="149px" viewBox="0 0 608 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
     <title>request-6</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-2" transform="translate(-946.000000, -1183.000000)">
-            <g id="request-6" transform="translate(946.000000, 1183.000000)">
-                <rect id="Rectangle-7" fill="#353535" x="0" y="0" width="608" height="202" rx="10"></rect>
-                <text id="From:-Olga-P." font-family="Montserrat-Regular, Montserrat" font-size="29" font-weight="normal">
-                    <tspan x="74" y="48" fill="#DBDBDB">From: </tspan>
-                    <tspan x="167.496" y="48" font-family="Montserrat-Bold, Montserrat" font-weight="bold" fill="#F2F2F2">Olga P.</tspan>
-                </text>
-                <path d="M28.3988182,26.0127782 C28.3586375,25.9752679 28.278276,25.9377576 28.2380952,25.9377576 C29.2426138,25.3375927 30.4078554,25 31.6534585,25 L52.3465415,25 C53.5921446,25 54.7573862,25.3751031 55.7619048,25.9377576 C55.721724,25.9752679 55.6815433,25.9752679 55.6413625,26.0127782 L42.5826208,36.1405606 C42.5826208,36.1405606 42.54244,36.1780709 42.54244,36.1780709 C42.2611748,36.440643 41.8191867,36.440643 41.4977407,36.1780709 C41.4977407,36.1780709 41.45756,36.1405606 41.45756,36.1405606 L28.3988182,26.0127782 Z M58.145933,28.25 C58.6746411,29.1695958 59,30.2491213 59,31.4086116 L59,44.602812 C59,48.1212654 56.0717703,51 52.492823,51 L31.507177,51 C27.9282297,51 25,48.1212654 25,44.602812 L25,31.4086116 C25,30.2491213 25.3253589,29.1695958 25.854067,28.25 C25.9354067,28.3299649 26.0167464,28.4499121 26.138756,28.529877 L39.3157895,39.3251318 C40.0885167,40.004833 41.0239234,40.3246924 42,40.3246924 C42.9760766,40.3246924 43.9114833,39.9648506 44.6842105,39.3251318 L57.861244,28.529877 C57.9832536,28.4499121 58.0645933,28.3699473 58.145933,28.25 Z" id="icon-mail" fill="#AEAEAE" fill-rule="nonzero"></path>
-                <text id="6-de-Oct-de-2016" opacity="0.699999988" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#DBDBDB">
-                    <tspan x="414" y="45">6 de Oct de 2016</tspan>
-                </text>
-                <text id="No-está-mi-Gym-(spor" font-family="Montserrat-Regular, Montserrat" font-size="34" font-weight="normal">
-                    <tspan x="25" y="126" fill="#DBDBDB">No está mi Gym (</tspan>
-                    <tspan x="319.202" y="126" fill="#FFCC00">sportium</tspan>
-                    <tspan x="474.888" y="126" fill="#DBDBDB">) que </tspan>
-                    <tspan x="25" y="168" fill="#DBDBDB">hago?</tspan>
-                </text>
-                <path d="M23.5,71.5 L582.532199,71.5" id="Line" stroke="#535353" stroke-linecap="square"></path>
+    <g id="user-meesages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-946.000000, -950.000000)">
+            <g id="Group-2" transform="translate(296.000000, 470.000000)">
+                <g id="request-6" transform="translate(650.000000, 480.000000)">
+                    <rect id="Rectangle-7" fill="#252525" x="0" y="0" width="608" height="149" rx="10"></rect>
+                    <text id="From:-Olga-P." font-family="Montserrat-Regular, Montserrat" font-size="29" font-weight="normal">
+                        <tspan x="74" y="48" fill="#DBDBDB">From: </tspan>
+                        <tspan x="167.496" y="48" font-family="Montserrat-Bold, Montserrat" font-weight="bold" fill="#F2F2F2">Olga P.</tspan>
+                    </text>
+                    <path d="M28.3988182,26.0127782 C28.3586375,25.9752679 28.278276,25.9377576 28.2380952,25.9377576 C29.2426138,25.3375927 30.4078554,25 31.6534585,25 L52.3465415,25 C53.5921446,25 54.7573862,25.3751031 55.7619048,25.9377576 C55.721724,25.9752679 55.6815433,25.9752679 55.6413625,26.0127782 L42.5826208,36.1405606 C42.5826208,36.1405606 42.54244,36.1780709 42.54244,36.1780709 C42.2611748,36.440643 41.8191867,36.440643 41.4977407,36.1780709 C41.4977407,36.1780709 41.45756,36.1405606 41.45756,36.1405606 L28.3988182,26.0127782 Z M58.145933,28.25 C58.6746411,29.1695958 59,30.2491213 59,31.4086116 L59,44.602812 C59,48.1212654 56.0717703,51 52.492823,51 L31.507177,51 C27.9282297,51 25,48.1212654 25,44.602812 L25,31.4086116 C25,30.2491213 25.3253589,29.1695958 25.854067,28.25 C25.9354067,28.3299649 26.0167464,28.4499121 26.138756,28.529877 L39.3157895,39.3251318 C40.0885167,40.004833 41.0239234,40.3246924 42,40.3246924 C42.9760766,40.3246924 43.9114833,39.9648506 44.6842105,39.3251318 L57.861244,28.529877 C57.9832536,28.4499121 58.0645933,28.3699473 58.145933,28.25 Z" id="icon-mail" fill="#606060" fill-rule="nonzero"></path>
+                    <text id="28-de-Oct-de-2017" opacity="0.699999988" font-family="Montserrat-Regular, Montserrat" font-size="20" font-weight="normal" fill="#878787">
+                        <tspan x="403.82" y="45">28 de Oct de 2017</tspan>
+                    </text>
+                    <text id="No-está-mi-Gym-(spor" font-family="Montserrat-Light, Montserrat" font-size="30" font-weight="300">
+                        <tspan x="25" y="123" fill="#ABABAB">No está mi Gym (</tspan>
+                        <tspan x="278.051758" y="123" font-family="Montserrat-Regular, Montserrat" font-weight="normal" fill="#FFCC00">sportium</tspan>
+                        <tspan x="415.421758" y="123" fill="#ABABAB">) que hago?</tspan>
+                    </text>
+                    <path d="M23.5,71.5 L582.532199,71.5" id="Line" stroke="#535353" stroke-linecap="square"></path>
+                </g>
             </g>
         </g>
     </g>

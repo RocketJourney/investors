@@ -2596,8 +2596,16 @@ section .topic {
 	margin-bottom:70px;
 }
 
+.cms-logos {
+	padding-top:30px;
+	display:table;
+	line-height: 100px;
+}
+
 .cms-logo {
 	max-height: 90px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .integration-method {

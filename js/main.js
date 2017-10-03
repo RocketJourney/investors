@@ -20,24 +20,5 @@ $(document).ready(function() {
       }
     });
 
-    $('.open-wiki-popup').magnificPopup({
-      type:'inline',
-      midClick: true
-      }
-    );
-
-    // Scrollspy
-    $('body').scrollspy({
-      target: ".navbar",
-      offset: 105
-    })
-  })
-
-  // Fixed Header
-  $(window).scroll(function() {
-    var value = $(this).scrollTop();
-    if (value > 80)
-    $(".navbar-default").css("background", "#ffd900");
-    else
-    $(".navbar-default").css("background", "transparent");
-  })
+    $('#topbar').scrollupbar();
+  });

@@ -2358,10 +2358,6 @@ a:hover {
 
 /* UTILS */
 
-.open-image-popup {
-	cursor: pointer;
-}
-
 .wiki-popup {
 	position: relative;
 	background: #FFF;
@@ -2658,4 +2654,8 @@ section .topic {
 	text-align:center;
 	letter-spacing: 0.3px;
 	opacity: 0.3;
+}
+
+.open-image-popup:hover {
+	cursor: pointer;
 }

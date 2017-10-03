@@ -2659,3 +2659,18 @@ section .topic {
 .open-image-popup:hover {
 	cursor: pointer;
 }
+
+.acq-full-list {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 16px;
+}
+
+.acq-full-list a {
+	color:#ffcc00;
+}
+
+.acq-full-list a:hover {
+	color:#FFE787;
+	text-decoration: underline;
+}

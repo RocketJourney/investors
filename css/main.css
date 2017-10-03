@@ -1486,87 +1486,20 @@ blockquote {
 	margin-top: 5px;
 }
 
-/* 19. FOOTER / COPYRIGHT */
+/* 19. FOOTER */
 
 footer {
-	padding: 100px 0;
 	background: #222;
+	padding:80px 0 280px;
 }
 
 footer , footer p, footer a {
 	color: #999;
-	font-size: 13px;
+	font-size: 32px;
 }
 
-footer .footer-logo {
-	margin: -10px 0 15px;
-}
-
-footer .footer-logo a {
-	color: #fff !important;
-	font-size: 25px;
-	margin-top: 5px;
-	font-weight: 700;
-	letter-spacing: -1px;
-	transition: all 0.4s ease 0s;
-}
-
-footer h4 {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 13px;
-	margin: 0px 0px 17px;
-	letter-spacing: 1px;
-	font-weight: 600;
-}
-
-.footer-list li {
-	margin-bottom: 8px;
-}
-
-.footer-list li a:hover {
-	color: #933ded;
-}
-
-.footer-social li {
-	margin-right: 7px;
-	float: left;
-}
-
-.footer-social li a {
-	width: 25px;
-	height: 35px;
-	display: table;
-	text-align: center;
-	line-height: 35px;
-	color: #933ded;
-	font-size: 16px;
-	border-radius: 50%;
-}
-
-.footer-social li a:hover {
-	color: #fff;
-}
-
-footer p {
-	line-height: 20px;
-	margin-bottom: 15px;
-}
-
-.footer-payment {
-	margin: -9px -10px -10px;
-	display: table;
-}
-
-.footer-payment li {
-	float: left;
-	width: 20%;
-	padding: 0 10px;
-	opacity: 0.4;
-}
-
-.footer-payment li img {
-	max-width: 100%;
+footer a {
+	font-weight: bold;
 }
 
 /* 20. RESPONSIVE STYLES */
@@ -1689,17 +1622,6 @@ footer p {
 
 	.panel-default.active {
 		transform: scale(1);
-	}
-
-	footer .col-md-4 {
-		width: 33.3333%;
-		float: left;
-	}
-
-	.footer-list li {
-		margin-bottom: 8px;
-		width: 50%;
-		float: left;
 	}
 
 	.intro6 h2 {
@@ -1867,18 +1789,6 @@ footer p {
 
 	.cta-content .btn {
 		font-size: 11px;
-	}
-
-	footer {
-		padding: 70px 0 30px;
-	}
-
-	.footer-social {
-		display: table;
-	}
-
-	footer .col-md-4 {
-		margin-bottom: 40px;
 	}
 
 	.dc-info {
@@ -2305,15 +2215,6 @@ a:hover {
 	background:#FFC107;
 	border:1px solid #FFC107 !important;
 }
-
-.footer-list li a:hover {
-	color:#FFC107;
-}
-
-.footer-social li a {
-	color: #FFC107;
-}
-
 .search button {
 	background: #FFC107;
 }
@@ -2350,6 +2251,7 @@ a:hover {
 
 .double-phone-wrapper {
 	margin: 30px auto;
+	padding: 0 50px;
 }
 
 .double-phone-wrapper-item {
@@ -2594,14 +2496,17 @@ section .topic {
 
 .cms-logos {
 	padding-top:30px;
-	display:table;
 	line-height: 100px;
+	white-space: nowrap;
+}
+
+.cms-logos > * {
+  vertical-align: middle;
 }
 
 .cms-logo {
 	max-height: 90px;
-	display: table-cell;
-	vertical-align: middle;
+	display: inline-block;
 }
 
 .integration-method {
@@ -2673,4 +2578,16 @@ section .topic {
 .acq-full-list a:hover {
 	color:#FFE787;
 	text-decoration: underline;
+}
+
+.gyms-row .img-responsive {
+	vertical-align: middle;
+	display: inline-block;
+	max-height: 90px;
+}
+
+.gyms-row {
+	text-align: center;
+	padding: 30px 0;
+	line-height: 95px;
 }

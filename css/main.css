@@ -10,14 +10,14 @@
 }
 
 body {
-	background: #1a1a1a;
+	background: #111;
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 	color: #777;
 	font-weight: 400;
 	font-size: 16px;
 	letter-spacing: 0.04em;
--webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -1502,12 +1502,40 @@ footer {
 	padding:80px 0 280px;
 }
 
-footer , footer p, footer a {
-	color: #999;
+footer p {
+	font-size:28px;
 }
 
-footer a {
-	font-weight: bold;
+p.contact-info, p.contact-info>a {
+	color:#fff;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+p.contact-info>a:hover {
+	color:#ffcc00;
+}
+
+@media only screen and (max-width: 767px)  {
+	footer p {
+		font-size:20px;
+		text-align: center;
+	}
+
+	footer {
+		padding-left:28px;
+		padding-right:28px;
+	}
+
+	p.contact-info, p.contact-info>a {
+		color:#fff;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	p.contact-info>a:hover {
+		color:#ffcc00;
+	}
 }
 
 /* 20. RESPONSIVE STYLES */

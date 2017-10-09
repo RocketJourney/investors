@@ -2303,6 +2303,10 @@ a:hover {
 	.double-phone-wrapper-item {
 		margin-bottom: 30px;
 	}
+
+	.gyms-row {
+		margin: 0 10px;
+	}
 }
 
 /* UTILS */

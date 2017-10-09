@@ -2299,6 +2299,12 @@ a:hover {
 	padding:0 12px;
 }
 
+@media only screen and (max-width: 767px)  {
+	.double-phone-wrapper-item {
+		margin-bottom: 30px;
+	}
+}
+
 /* UTILS */
 
 .wiki-popup {

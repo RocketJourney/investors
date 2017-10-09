@@ -2597,6 +2597,10 @@ section .topic {
 	}
 }
 
+.acq-logos img {
+	width:100%;
+}
+
 .integration-method {
 	background-color: #171717;
 	/*border: 1px solid #171717;*/
